@@ -1,7 +1,7 @@
 {
 	"info": {
 		"_postman_id": "ffb80826-1740-4550-a216-b1b2969fe0bb",
-		"name": "test",
+		"name": "test-express-server",
 		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
 		"_exporter_id": "33268164"
 	},
