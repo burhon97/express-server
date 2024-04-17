@@ -1,0 +1,20 @@
+version: "3"
+
+volumes:
+  mydb:
+    external: true
+
+services:
+  mysql:
+    container_name: mysql
+    image: mysql
+    restart: always
+    environment:
+      MYSQL_DATABASE: "mydb"
+      MYSQL_USER: "user"
+      MYSQL_PASSWORD: "user!"
+      MYSQL_ROOT_PASSWORD: "user!"
+    ports:
+      - "3306:3306"
+    volumes:
+      - mydb:/var/lib/mysql
