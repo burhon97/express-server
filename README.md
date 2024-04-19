@@ -15,6 +15,20 @@ npm install
 
 ## Usage
 
+### Run external service with Docker
+
+Create necessary volume by running:
+
+```shell
+docker volume create mydb
+```
+
+Then run docker-compose to start MySQL:
+
+```shell
+docker-compose up -d
+```
+
 ### Start server
 
 To start server you need at the first compile
