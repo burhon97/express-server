@@ -1,6 +1,6 @@
 # Express Server
 
-This test example `express.js` server for sign-up/sign-in and upload/get/download file.
+This example `express.js` server for sign-up/sign-in and upload/get/download file.
 
 ## Requirements
 
