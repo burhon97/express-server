@@ -63,7 +63,7 @@ Make request `sign-in-request` for sign in and you get your `jwt` token:
 
 **`new-token`**
 
-Make request `sign-in-new-token-request` for refresh `jwt` token:
+Make request `sign-in-new-token-request` for new `jwt` token:
 ![refresh-token](./assets/new-token.png)
 
 **`upload-file`**
